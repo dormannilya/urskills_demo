@@ -1,35 +1,33 @@
-.app {
+.container {
   text-align: center;
-}
-
-.app-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
+  padding: 20px;
 }
 
 .logo {
-  width: 200px; /* Увеличено */
+  width: 200px; /* Увеличить ширину логотипа */
   height: auto;
+  margin-bottom: 20px;
 }
 
 .button-container {
   margin-top: 20px;
 }
 
-.button_demo {
+.button_demo, .button_connect {
   padding: 10px 20px;
   font-size: 1.2em;
   border: none;
   border-radius: 10px;
-  background-color: #9180bf;
-  color: white;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s;
   text-decoration: none;
-  margin-right: 10px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.button_demo {
+  background-color: #9180bf;
+  color: white;
 }
 
 .button_demo:hover {
@@ -39,15 +37,9 @@
 }
 
 .button_connect {
-  padding: 10px 20px;
-  font-size: 1.2em;
-  border: 2px solid #9180bf;
-  border-radius: 10px;
   background-color: white;
   color: #6f1fa9;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s;
-  text-decoration: none;
+  border: 2px solid #9180bf;
 }
 
 .button_connect:hover {
@@ -67,11 +59,15 @@
   color: #666666;
   text-decoration: underline;
   cursor: pointer;
+  font-size: 1em;
+  padding: 0;
 }
 
 .description {
-  color: #333333; /* Темнее чем 666666 */
-  text-align: left;
-  max-width: 300px; /* Ширина логотипа и кнопок */
+  color: #444444;
   margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+  max-width: 400px; /* Ограничение ширины описания */
+  line-height: 1.5;
 }
