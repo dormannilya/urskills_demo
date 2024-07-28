@@ -7,6 +7,13 @@
   width: 400px; /* Увеличить ширину логотипа */
   height: auto;
   margin-bottom: 20px;
+  
+}
+.release-info {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #444;
+  margin-bottom: 20px; /* Добавить отступ снизу */
 }
 
 .button-container {
