@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/urskills_demo/static/css/main.3306e58f.css",
-    "main.js": "/urskills_demo/static/js/main.3093dd59.js",
+    "main.css": "/urskills_demo/static/css/main.f855e6bc.css",
+    "main.js": "/urskills_demo/static/js/main.8b68b32b.js",
     "static/js/453.69f3745b.chunk.js": "/urskills_demo/static/js/453.69f3745b.chunk.js",
-    "static/media/urskillslogo2.png": "/urskills_demo/static/media/urskillslogo2.9bb2c879950772767ef3.png",
     "index.html": "/urskills_demo/index.html",
-    "main.3306e58f.css.map": "/urskills_demo/static/css/main.3306e58f.css.map",
-    "main.3093dd59.js.map": "/urskills_demo/static/js/main.3093dd59.js.map",
+    "main.f855e6bc.css.map": "/urskills_demo/static/css/main.f855e6bc.css.map",
+    "main.8b68b32b.js.map": "/urskills_demo/static/js/main.8b68b32b.js.map",
     "453.69f3745b.chunk.js.map": "/urskills_demo/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3306e58f.css",
-    "static/js/main.3093dd59.js"
+    "static/css/main.f855e6bc.css",
+    "static/js/main.8b68b32b.js"
   ]
 }
