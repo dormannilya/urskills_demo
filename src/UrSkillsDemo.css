@@ -1,54 +1,77 @@
-.container {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  .logo {
-    width: 450px; /* Увеличить ширину */
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  .button-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .button_demo {
-    padding: 10px 20px;
-    font-size: 1.2em;
-    border: none;
-    border-radius: 10px;
-    background-color: #9180bf;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s;
-    text-decoration: none;
-  }
-  
-  .button_demo:hover {
-    background-color: #6f1fa9;
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  .button_connect {
-    padding: 10px 20px;
-    font-size: 1.2em;
-    border: 2px solid #6f1fa9;
-    border-radius: 10px;
-    background-color: transparent;
-    color: #6f1fa9;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s;
-    text-decoration: none;
-  }
-  
-  .button_connect:hover {
-    background-color: #6f1fa9;
-    color: white;
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  }
-  
+.app {
+  text-align: center;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.logo {
+  width: 200px; /* Увеличено */
+  height: auto;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button_demo {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  background-color: #9180bf;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.button_demo:hover {
+  background-color: #6f1fa9;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.button_connect {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: 2px solid #9180bf;
+  border-radius: 10px;
+  background-color: white;
+  color: #6f1fa9;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+  text-decoration: none;
+}
+
+.button_connect:hover {
+  background-color: #6f1fa9;
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.description-toggle {
+  margin-top: 20px;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: #666666;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.description {
+  color: #333333; /* Темнее чем 666666 */
+  text-align: left;
+  max-width: 300px; /* Ширина логотипа и кнопок */
+  margin-top: 20px;
+}
