@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/urskills_demo/static/css/main.3c85dec7.css",
-    "main.js": "/urskills_demo/static/js/main.a54cb0c9.js",
+    "main.js": "/urskills_demo/static/js/main.976a0109.js",
     "static/js/453.69f3745b.chunk.js": "/urskills_demo/static/js/453.69f3745b.chunk.js",
     "static/media/urskillslogo2.png": "/urskills_demo/static/media/urskillslogo2.9bb2c879950772767ef3.png",
     "index.html": "/urskills_demo/index.html",
     "main.3c85dec7.css.map": "/urskills_demo/static/css/main.3c85dec7.css.map",
-    "main.a54cb0c9.js.map": "/urskills_demo/static/js/main.a54cb0c9.js.map",
+    "main.976a0109.js.map": "/urskills_demo/static/js/main.976a0109.js.map",
     "453.69f3745b.chunk.js.map": "/urskills_demo/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c85dec7.css",
-    "static/js/main.a54cb0c9.js"
+    "static/js/main.976a0109.js"
   ]
 }
